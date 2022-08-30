@@ -1,0 +1,585 @@
+﻿PRG:0881-0883:loadNPCdialogue
+PRG:0965-098B:enteringDoor
+PRG:0B3C-0B49:itemNameInMenu:call item name in menu
+PRG:0BE6-0BF3:itemAmountinInventory
+PRG:443F-4440:itemPickup
+PRG:90AE-90B6:npcTalk
+PRG:9CEA-9CF6:exitDialogue
+PRG:B75C-B75D:bellMessage
+PRG:1029A:possiblyAnotherBattleStatuscheck
+PRG:1FF36-1FF39:possibleLostSoulsSkills
+PRG:34444-34463:lostSoulData
+PRG:35C33-35C34:itemGetPrompt:possible
+PRG:1500C0-1500EC:OerstedStaticData:Includes skills
+PRG:1500ED-150119:StraybowStaticData
+PRG:15011A-150146:UranusStaticData
+PRG:150147-150173:HashStaticData
+PRG:150174-1501A0:pogostaticdata
+PRG:1501A1-1501CD:goriStaticData
+PRG:1501CE-1501FA:BelStaticData
+PRG:1501FB-150227:zakiStaticData
+PRG:150228-150254:MasterRoStaticData
+PRG:150255-150281:yuanStaticData
+PRG:150282-1502AE:liStaticData
+PRG:1502AF-1502DB:SammoStaticData
+PRG:1502DC-150308:sundownStaticData
+PRG:150309-150335:maddogStaticData
+PRG:150336-150362:OboroStaticData
+PRG:150363-15038F:ryomaStaticData
+PRG:150390-1503BC:masaruStaticData
+PRG:1503BD-1503E9:AkiraStaticData
+PRG:1503EA-150416:taroStaticData
+PRG:150417-150443:MatsuStaticData
+PRG:150444-150470:cubeDataStatic
+PRG:150471-15049D:captainSquareData
+PRG:15049E-1504CA:orobostaticData
+PRG:15054B-15056A:ironBeetleData
+PRG:1505AB-1505CA:lightRiderData
+PRG:150CAB-150CCA:GlaysaLabolas
+PRG:150CCB-150CEA:ishtar
+PRG:150FCB-150FEA:JackieIaukea
+PRG:151E6B-151E8A:odioEye
+PRG:151E8B-151EAA:odioMouth
+PRG:151ECB-151EEA:odioMole
+PRG:151EEB-151F0A:pureOdio
+PRG:1524E4-1524FC:orobocut:cut one way
+PRG:1524FD-152515:VShine
+PRG:152516-15252E:pluslink
+PRG:15252F-152547:mirrorDrive
+PRG:152561-152579:hammerPower
+PRG:1525DE-1525F6:redBulletActual
+PRG:153326-15333E:FuShaNosha:prepare to be a counter no more. muhuhuhua
+PRG:1537A4-1537BC:selfmidHeal
+PRG:1539CA-1539E2:GrabOnSkill
+PRG:153D67-153D7F:atomizerslice
+PRG:154230-15423F:tickle
+PRG:154CEE-154D06:highspeedanalysis
+PRG:154D07-154D1F:driveback
+PRG:154D20-154D38:hardprotect
+PRG:154D39-154D51:systemRecover
+PRG:1556B2-1556CA:stAlicia
+PRG:1571D4-1571E3:naorigusa
+PRG:1571E4-1571F3:joshuaseed
+PRG:1571F4-157203:alicebiscuit
+PRG:157204-157213:unicornhorn
+PRG:157214-157223:thisThing
+PRG:157224-157233:edenApple
+PRG:157234-157243:solomonskill
+PRG:157244-157253:algosEye
+PRG:1572A4-1572B3:leatherArmor
+PRG:1572B4-1572C3:morganRobe
+PRG:1572E4-1572F3:holyArmor
+PRG:1572F4-157303:goldenRobes
+PRG:157324-157333:nightmareHelmet
+PRG:157354-157363:rockFist
+PRG:157364-157373:unkonw
+PRG:157384-157393:charioBoots
+PRG:157394-1573A3:chodarRod
+PRG:1573A4-1573B3:hazelRod
+PRG:1573B4-1573C3:normicSword
+PRG:1573C4-1573D3:axianSword
+PRG:1573D4-1573E3:marvellaSword
+PRG:1573E4-1573F3:defender
+PRG:1573F4-157403:brionHashOnly
+PRG:157404-157413:brion
+PRG:157434-157443:royalShield
+PRG:157444-157453:meatyBone
+PRG:157554:smoulderSpear
+PRG:157664-157673:colabottle
+PRG:157674-157683:kingsFang
+PRG:157684-157693:venusFigurine
+PRG:157694:bourbon
+PRG:1577B4-1577C3:peacemaker
+PRG:157844-157853:castella
+PRG:157854-157863:medicineBox
+PRG:157894-1578A3:suijinScales
+PRG:157934-157943:genjiArmor
+PRG:1579A4-1579B3:yoshiyuki
+PRG:157A04-157A13:maidsObi
+PRG:157A74-157A83:potionno9
+PRG:157AC4-157AD3:kotobukilacquer
+PRG:157AE4-157AF3:angelsbottle
+PRG:157AF4-157B03:kintotocannon
+PRG:157B14-157B23:bouncegun
+PRG:157B94-157BA3:shinjushirt
+PRG:157D74-157D83:powerparts:maybe
+PRG:157D84-157D93:bandage:???
+PRG:157E14-157E23:dragonclothes
+PRG:157E94-157EA3:ironFist
+PRG:157FD4-157FE3:boneAxe
+PRG:157FE4-157FF3:masterNunchucks
+PRG:157FF4-158003:mag44
+PRG:158014-158023:superBandageItem
+PRG:158054-158063:bloodymagicrobe
+PRG:158094-1580A3:goddessgauntlet
+PRG:158164-158173:parasiteSword
+PRG:200660-20068F:somethingwithEquipMenu
+PRG:210808-210809:unicornHornNameCall
+PRG:21080A-21080B:thisThingNameID
+PRG:21080C-21080D:edenAppleID
+PRG:21080E-21080F:solomonBoneNameID
+PRG:210828-210829:salletNameID
+PRG:210838-210839:charioBootNameID
+PRG:21084E-21084F:royalShieldNameCall
+PRG:210A06-210A07:healingItemDescription
+PRG:210A18-210A19:mainHandEquipDescribe
+PRG:210A20-210A21:headequipdescribe
+PRG:210A22-210A23:offhandEquipdescribe
+PRG:210A24-210A25:bodyequipdescribe
+PRG:210A28-210A29:accessoriesDescription:calls correct description for accessories\n
+PRG:211601-211609:oerstedname:where default names are stored
+PRG:21340B-213414:thisThingName
+PRG:213423-213430:solomonBoneName
+PRG:2134E7-2134F4:leatherGloveName
+PRG:2240F6-224103:oerstedwhenItemRecieve
+PRG:22421A-22421E:pogoItemGet
+PRG:256A98-256ABF:cannotCarryMessage
+WORK:0070:donttouch:any other calue sends you to intro screen + crashie if you press A
+WORK:013D:itemRecieved
+WORK:0140:gModemanip
+WORK:0150:causesquake:01 causes earthquake???\n
+WORK:0156:mightbeimportant
+WORK:0162:fadeToblack
+WORK:0168:enableLooping
+WORK:0169:moreXposFuckery
+WORK:017A:loopenable
+WORK:0196:outsidetilefuckery
+WORK:01A0-01A3:partySpriteMode:somethin about this triggers animations played
+WORK:01A8-01AF:movementSpeed:10=walk\n20 = dash\n40 = oboro dash?
+WORK:01B0-01B3:activePartyPalletes:seems that this controls the palletes.\ndepending on position, diff num = diff pallettes???\n\n 
+WORK:01C6-01C7:currentDialogue:where dialogue is dug up from in ROM\n\nend address
+WORK:01C9:forkindecision
+WORK:01D3:somethingWithVisibleTiles
+WORK:01F2:noTouchgraphicsthing
+WORK:0204-0205:possibleJaggyEgg
+WORK:0234:reallyTrippyshit
+WORK:0240:waveEffectSpeed
+WORK:0368-0369:lastUsedTech:get starting address of the tech last used.
+WORK:036A-036B:techIDCall
+WORK:03ED:tileColumnTarget
+WORK:03EE:targetTileRow
+WORK:054F:scenarioMarkerselect
+WORK:0A00-0A01:chapterprogresscounter:A00 = chapter flag\na01 = chapters completed\n\na01 vals: 01 = oersted, 02 = pogo, 04 cube, 08 KF, 10  sundown\n20 masaru, 40 akira, 80 oboro, 00 = new game\n\noersted's chapter does not show up or appear UNTIL you complete all 7 main chapters before oersted's chapter.
+WORK:0A02-0A03:possibleRoomIDpoint1
+WORK:0A04:possiblefoglayer
+WORK:0A08:enterthedoor
+WORK:0A09-0A0B:thisscrewswcolor
+WORK:0A10-0A13:owspriteloadingparty
+WORK:0A14:partySizeLimit
+WORK:0A15:kungfuinheritorspritetrigger
+WORK:0A1C:controlInversioinTag
+WORK:0A1F:BDMode
+WORK:0A20-0A21:playerXmove
+WORK:0A28-0A29:playerYmov
+WORK:0A34:leaderspritefacingdirection:04 = at player\n03 = right\n02 = left\n01 = up
+WORK:0A35:p2facingdirection
+WORK:0A36:p3facingdirection
+WORK:0A37:p4facingdirection
+WORK:0A43:possiblywgraphicslayers
+WORK:0A4B:settingID
+WORK:0A52-0A54:possibleCubeMirrorIQdungeon
+WORK:0A60:owthemetrigger:00-3F???
+WORK:0A61:owthemevolume
+WORK:0A62:battleIntroVolume
+WORK:0A6A:possiblechoicerecord
+WORK:0AB0-0AB3:saveSlots
+WORK:0AB4-0AB5:savecounter:counts the saves for a current scenario. up to 999(?)
+WORK:0AB6-0ABD:chapCompleteIcons
+WORK:0AC0:introflaghere
+WORK:0AC1:roomTeleport
+WORK:0AC4:replayIntro
+WORK:0AC6:possiblealternateOutcomeflagshere:inheritor, killing mad dog
+WORK:0ACA-0ACB:sniffspritetimer
+WORK:0ACE-0ACF:owsprite:depending on value, the correct overworld sprites will be loaded. Doesn't affect Y ability
+WORK:0B00:inventory:starts w/oersted's ch. item offsets by x100. RPG Shrine has the item  IDs correct tho
+WORK:0C01:combatInventory
+WORK:0C89:activeinventoryamts
+WORK:0D06:oerstedLV
+WORK:0D08-0D09:oerstedCurrentHP
+WORK:0D0A-0D0B:oerstedMaxHP
+WORK:0D0C:oerstedLastCalledTech
+WORK:0D10:oerstedPOWtotal
+WORK:0D24:oerstedHeadEquip
+WORK:0D25:oerstedMainequip
+WORK:0D26:oerstedOffhandequip
+WORK:0D27:oerstedArmorslot
+WORK:0D28:oerstedFootequipSlot
+WORK:0D29-0D2D:accessorySlotsOersted
+WORK:0D2F:oerstedDefense
+WORK:0D30:oerstedStatusEffectImmunity
+WORK:0D31:oerstedFieldImmunity
+WORK:0D32:OerstedphysicalAtrributeEvade
+WORK:0D33:OerstedElementEvade
+WORK:0D46:pogoLV
+WORK:0D73:pogoElementEvade
+WORK:0D86:cubeLevel:or captain square. same stats
+WORK:0D88-0D89:cubeCurrentHP
+WORK:0D8A-0D8B:cubeMaxHP
+WORK:0DC6:kungfulv
+WORK:0DC8:kungfuHPcurr:why is there no name?
+WORK:0DCA:kungfuHPmax
+WORK:0DDE:kungfuEXP
+WORK:0E06:sundownlv
+WORK:0E08-0E09:sundowncurrHP
+WORK:0E0A-0E0B:sundownMaxHP
+WORK:0E46:masarulv
+WORK:0E48:masarucurrHP
+WORK:0E4A:masarumaxHP
+WORK:0E4C:masaruCurrSkill:possibly the current skill that masaru uses.
+WORK:0E86:akiraLV:akiras level is HERE
+WORK:0E88-0E89:akiracurrHP
+WORK:0E8A-0E8B:maxHPakira
+WORK:0E92:akiraPOWmod:why store backwards, programmer-san???
+WORK:0E93:akiraPOW
+WORK:0E94:akiraSPD
+WORK:0E95:akiraSPDmod:equip buffs/dbuff
+WORK:0E9E:akiraXP
+WORK:0EA3:akiraATK
+WORK:0EAF:akiraDEF
+WORK:0EC6:oborolv
+WORK:0EDE:oboroXP
+WORK:0F06:member2level
+WORK:0F08:p2currHP
+WORK:0F0A:p2maxHP
+WORK:0F0C:p2lastcalledSkill
+WORK:0F10:p2POWtotal
+WORK:0F11:p2Pow
+WORK:0F12:p2powmod
+WORK:0F13:p2spdtot
+WORK:0F14:p2spd
+WORK:0F15:p2spdmod
+WORK:0F16:p2conTotal
+WORK:0F17:p2con
+WORK:0F18:p2Conboost
+WORK:0F19:p2IQtot
+WORK:0F1A:p2IQ
+WORK:0F1B:p2IQboost
+WORK:0F1E:p2EXP
+WORK:0F2F:p2Def
+WORK:0F31:p2FieldImmune
+WORK:0F33:p3MagicImmunity
+WORK:0F46:thirdmemberlevel
+WORK:0F48-0F49:currHP3member:current HP
+WORK:0F4A:maxHP3mem
+WORK:0F86:p4lv
+WORK:0F88:fourthmemberHPcurr
+WORK:0F8A:fourthmembermaxHP
+WORK:0F94:
+WORK:10E2:graphicsFilterthing
+WORK:11E0-11E5:wrestlerID:00=namcat, clockwise to 05 = jackie
+WORK:11F1:oboroKillCounter:for now
+WORK:11F6:deathProphetRunCounter
+WORK:1200:recruitRyomaDesertFlag
+WORK:1204:NPCdialoguecall:00 = when you start out. Items will be given\n01 = recruit Uranus
+WORK:1206:masarurec3:note these also record cutscene played/other shit in other chapters
+WORK:1207:thisareastoreskills:100 kill markers
+WORK:1209:possiblePogoTrigger1
+WORK:120A:possibleCubeRecruit:must be 01 to use iron box.\notherwise, 00. this checks if Cube got the iron box yet
+WORK:120B:masaruRec1
+WORK:120C:armoryGuardSwitch:00 = stay in front\n01 = help yourself\nalso pogo recruit
+WORK:120D:masaruRec2
+WORK:120E:gotPogo:i guess
+WORK:1212:MasaruRecruit
+WORK:1215:characterRecruit
+WORK:1216:talkedtoOboro
+WORK:1217:sundownRecruit1:makes game think you already did the recruit thingie\n
+WORK:1218:didInsertPowerPart
+WORK:121F:npcNaorigusa
+WORK:1220:npcDefender
+WORK:1221:thisThingNPC:this one has infinite???? am confuse
+WORK:1222:npcDisrobedClothes
+WORK:1223:joshuaSeedNPC
+WORK:1226:talkToAkira
+WORK:122E:mightRESPAWNODIO:maybe?????\n
+WORK:1231:cuberecruit2
+WORK:1235:cuberecruit3
+WORK:1238:possibleBell:00=origin, 01 = river?
+WORK:123D:triggerDeathProphetfight:how??? idk
+WORK:123E:shadowTrigger
+WORK:124D:possibleGutsyGlove
+WORK:127C:arielGlove
+WORK:127D:didFightDPYET:is he alive? 00
+WORK:127E:givenGoldTopknotAmLuc
+WORK:127F:foughtAmlucretia
+WORK:1280-1281:lucretiaGuestRoomItems
+WORK:1282-1285:aliciasRoomItems
+WORK:1287-1299:lucretiaArmory
+WORK:129C-12A0:familianaorigusa
+WORK:12A1:joshuaseedsnearfamilia
+WORK:12A4-12AD:naorigusarespawn:did they already take one or not?\n01 = yes\n00 = no
+WORK:12AE:joshuaSeedNearDemonPeak
+WORK:12C0:bourbonBarCounter
+WORK:12CA:mermaidBottomStrDun
+WORK:12CF:bellTimeDungeon
+WORK:12D0:mindDungeonCoralRing
+WORK:12D1:nightmareHelmMindDungeon
+WORK:12D2:bloodyMagicRobeMindDungeon
+WORK:12D3:holyWaterMindDungeon
+WORK:12D8:lucretiaGuestRoomAliceBiscuit
+WORK:12D9:lucretiaguestroomleatherarmor
+WORK:12F0:fightAmyYet
+WORK:12F1:thatsthestuff
+WORK:12F7:deathProphetbossproper
+WORK:1300-1301:kungFudialoguevariations:0100 for master\n0001 for li\n0000 for sammo
+WORK:132E:possiblestrDungeonBoss
+WORK:134A:movementpatternNPC:maybe\n
+WORK:1A00:enemySpriteID
+WORK:1A04:enemy1width
+WORK:1A05:enemy1height
+WORK:1A0B:enemy1level
+WORK:1A10-1A11:enemy1HP
+WORK:1A20:enemy1Data
+WORK:1B00:enemy1IDDisplayCombat
+WORK:1B08:enemy1Col
+WORK:1B09:enemy1Row
+WORK:1B0A:enemy1x
+WORK:1B0B:enemy1y
+WORK:1B10:enemy2namedisplaycombat
+WORK:1C00:member1SpriteDisplay
+WORK:1C01:enemycontrolp1
+WORK:1C03:nameDisplayp1
+WORK:1C1D:p1rotationflag
+WORK:1C1E-1C1F:spritecallp1combat
+WORK:1C40:member2battlesprite
+WORK:1C43:nameDisplayp2
+WORK:4524:intDungeonCheck
+WORK:4526:battleStatustracker
+WORK:8A00-8A1F:DisplayCurrentSkillsRAM:no count for level up
+WORK:8DC6-8DC7:equipspritehead
+WORK:8DC8-8DC9:righthandequipsprite
+WORK:8DCA:lefthandequipsprite
+WORK:8DCC-8DCD:equipspritebody
+WORK:8DCE-8DCF:activeequipspritefoot:different flashing sets for each place.
+WORK:8DD0-8DD1:activeaccesssprite:glowing sprites for accessories
+WORK:8E40-8E44:startScenarioPrompt
+WORK:8E50-8E54:redoScenarioPrompt
+WORK:8E70-8E73:scenarioDescribePrompt
+WORK:A4A1:possibleBattleIndicator
+WORK:AA00-AA0F:enemyCombatData1
+WORK:AC70-AC71:lastTechUsedEnemy
+WORK:D000-D3FF:combat
+WORK:DD85:oerstedskillset
+WORK:E900-E90F:p1CombatSkills
+WORK:E910-E916:p1Attack
+WORK:E930-E936:p1attacksecondary
+WORK:E940-E94F:p2combatskills
+WORK:E950-E956:p2attackThing
+WORK:E970-E976:p2attacksecondary
+WORK:10776:kfCabinet1:15=empty\n05 = full
+WORK:1077F:wallgraphicright
+WORK:107BE:meatBunJar1sprites:04=full\n14=empty
+WORK:12DB6:mindDungeonAlicia
+WORK:12F73:mindDungeonUranus
+WORK:12F79:mindDungeonHash:maybe theres different NPC behaviors tied to each number?
+WORK:18F18-18F19:defenderNPCID
+WORK:18F1A-18F1B:thisThingNPCID:this highlights if you talk to NPC that gives This Thing
+WORK:18F1E-18F1F:joshuaSeedKidID
+WORK:1CD2E-1CD30:possibletreasureGet
+SPCRAM:00F0:TEST:Testing functions
+SPCRAM:00F1:CONTROL:I/O and Timer Control
+SPCRAM:00F2:DSPADDR:DSP Address
+SPCRAM:00F3:DSPDATA:DSP Data
+SPCRAM:00F4:CPUIO1:CPU I/O 1
+SPCRAM:00F5:CPUIO2:CPU I/O 1
+SPCRAM:00F6:CPUIO3:CPU I/O 1
+SPCRAM:00F7:CPUIO4:CPU I/O 1
+SPCRAM:00F8:RAMREG1:Memory Register 1
+SPCRAM:00F9:RAMREG2:Memory Register 2
+SPCRAM:00FA:T0TARGET:Timer 0 scaling target
+SPCRAM:00FB:T1TARGET:Timer 1 scaling target
+SPCRAM:00FC:T2TARGET:Timer 2 scaling target
+SPCRAM:00FD:T0OUT:Timer 0 output
+SPCRAM:00FE:T1OUT:Timer 1 output
+SPCRAM:00FF:T2OUT:Timer 2 output
+REG:2100:INIDISP:Screen Display Register
+REG:2101:OBSEL:Object Size and Character Size Register
+REG:2102:OAMADDL:OAM Address Registers (Low)
+REG:2103:OAMADDH:OAM Address Registers (High)
+REG:2104:OAMDATA:OAM Data Write Register
+REG:2105:BGMODE:BG Mode and Character Size Register
+REG:2106:MOSAIC:Mosaic Register
+REG:2107:BG1SC:BG Tilemap Address Registers (BG1)
+REG:2108:BG2SC:BG Tilemap Address Registers (BG2)
+REG:2109:BG3SC:BG Tilemap Address Registers (BG3)
+REG:210A:BG4SC:BG Tilemap Address Registers (BG4)
+REG:210B:BG12NBA:BG Character Address Registers (BG1&2)
+REG:210C:BG34NBA:BG Character Address Registers (BG3&4)
+REG:210D:BG1HOFS:BG Scroll Registers (BG1)
+REG:210E:BG1VOFS:BG Scroll Registers (BG1)
+REG:210F:BG2HOFS:BG Scroll Registers (BG2)
+REG:2110:BG2VOFS:BG Scroll Registers (BG2)
+REG:2111:BG3HOFS:BG Scroll Registers (BG3)
+REG:2112:BG3VOFS:BG Scroll Registers (BG3)
+REG:2113:BG4HOFS:BG Scroll Registers (BG4)
+REG:2114:BG4VOFS:BG Scroll Registers (BG4)
+REG:2115:VMAIN:Video Port Control Register
+REG:2116:VMADDL:VRAM Address Registers (Low)
+REG:2117:VMADDH:VRAM Address Registers (High)
+REG:2118:VMDATAL:VRAM Data Write Registers (Low)
+REG:2119:VMDATAH:VRAM Data Write Registers (High)
+REG:211A:M7SEL:Mode 7 Settings Register
+REG:211B:M7A:Mode 7 Matrix Registers
+REG:211C:M7B:Mode 7 Matrix Registers
+REG:211D:M7C:Mode 7 Matrix Registers
+REG:211E:M7D:Mode 7 Matrix Registers
+REG:211F:M7X:Mode 7 Matrix Registers
+REG:2120:M7Y:Mode 7 Matrix Registers
+REG:2121:CGADD:CGRAM Address Register
+REG:2122:CGDATA:CGRAM Data Write Register
+REG:2123:W12SEL:Window Mask Settings Registers
+REG:2124:W34SEL:Window Mask Settings Registers
+REG:2125:WOBJSEL:Window Mask Settings Registers
+REG:2126:WH0:Window Position Registers (WH0)
+REG:2127:WH1:Window Position Registers (WH1)
+REG:2128:WH2:Window Position Registers (WH2)
+REG:2129:WH3:Window Position Registers (WH3)
+REG:212A:WBGLOG:Window Mask Logic registers (BG)
+REG:212B:WOBJLOG:Window Mask Logic registers (OBJ)
+REG:212C:TM:Screen Destination Registers
+REG:212D:TS:Screen Destination Registers
+REG:212E:TMW:Window Mask Destination Registers
+REG:212F:TSW:Window Mask Destination Registers
+REG:2130:CGWSEL:Color Math Registers
+REG:2131:CGADSUB:Color Math Registers
+REG:2132:COLDATA:Color Math Registers
+REG:2133:SETINI:Screen Mode Select Register
+REG:2134:MPYL:Multiplication Result Registers
+REG:2135:MPYM:Multiplication Result Registers
+REG:2136:MPYH:Multiplication Result Registers
+REG:2137:SLHV:Software Latch Register
+REG:2138:OAMDATAREAD:OAM Data Read Register
+REG:2139:VMDATALREAD:VRAM Data Read Register (Low)
+REG:213A:VMDATAHREAD:VRAM Data Read Register (High)
+REG:213B:CGDATAREAD:CGRAM Data Read Register
+REG:213C:OPHCT:Scanline Location Registers (Horizontal)
+REG:213D:OPVCT:Scanline Location Registers (Vertical)
+REG:213E:STAT77:PPU Status Register
+REG:213F:STAT78:PPU Status Register
+REG:2140:APUIO0:APU IO Registers
+REG:2141:APUIO1:APU IO Registers
+REG:2142:APUIO2:APU IO Registers
+REG:2143:APUIO3:APU IO Registers
+REG:2180:WMDATA:WRAM Data Register
+REG:2181:WMADDL:WRAM Address Registers
+REG:2182:WMADDM:WRAM Address Registers
+REG:2183:WMADDH:WRAM Address Registers
+REG:4016:JOYSER0:Old Style Joypad Registers
+REG:4017:JOYSER1:Old Style Joypad Registers
+REG:4200:NMITIMEN:Interrupt Enable Register
+REG:4201:WRIO:IO Port Write Register
+REG:4202:WRMPYA:Multiplicand Registers
+REG:4203:WRMPYB:Multiplicand Registers
+REG:4204:WRDIVL:Divisor & Dividend Registers
+REG:4205:WRDIVH:Divisor & Dividend Registers
+REG:4206:WRDIVB:Divisor & Dividend Registers
+REG:4207:HTIMEL:IRQ Timer Registers (Horizontal - Low)
+REG:4208:HTIMEH:IRQ Timer Registers (Horizontal - High)
+REG:4209:VTIMEL:IRQ Timer Registers (Vertical - Low)
+REG:420A:VTIMEH:IRQ Timer Registers (Vertical - High)
+REG:420B:MDMAEN:DMA Enable Register
+REG:420C:HDMAEN:HDMA Enable Register
+REG:420D:MEMSEL:ROM Speed Register
+REG:4210:RDNMI:Interrupt Flag Registers
+REG:4211:TIMEUP:Interrupt Flag Registers
+REG:4212:HVBJOY:PPU Status Register
+REG:4213:RDIO:IO Port Read Register
+REG:4214:RDDIVL:Multiplication Or Divide Result Registers (Low)
+REG:4215:RDDIVH:Multiplication Or Divide Result Registers (High)
+REG:4216:RDMPYL:Multiplication Or Divide Result Registers (Low)
+REG:4217:RDMPYH:Multiplication Or Divide Result Registers (High)
+REG:4218:JOY1L:Controller Port Data Registers (Pad 1 - Low)
+REG:4219:JOY1H:Controller Port Data Registers (Pad 1 - High)
+REG:421A:JOY2L:Controller Port Data Registers (Pad 2 - Low)
+REG:421B:JOY2H:Controller Port Data Registers (Pad 2 - High)
+REG:421C:JOY3L:Controller Port Data Registers (Pad 3 - Low)
+REG:421D:JOY3H:Controller Port Data Registers (Pad 3 - High)
+REG:421E:JOY4L:Controller Port Data Registers (Pad 4 - Low)
+REG:421F:JOY4H:Controller Port Data Registers (Pad 4 - High)
+REG:4300:DMAP0:(H)DMA Control
+REG:4301:BBAD0:(H)DMA B-Bus Address
+REG:4302:A1T0L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4303:A1T0H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4304:A1B0:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4305:DAS0L:DMA Size / HDMA Indirect Address (Low)
+REG:4306:DAS0H:DMA Size / HDMA Indirect Address (High)
+REG:4307:DAS0B:HDMA Indirect Address (Bank)
+REG:4308:A2A0L:HDMA Mid Frame Table Address (Low)
+REG:4309:A2A0H:HDMA Mid Frame Table Address (High)
+REG:430A:NTLR0:HDMA Line Counter
+REG:4310:DMAP1:(H)DMA Control
+REG:4311:BBAD1:(H)DMA B-Bus Address
+REG:4312:A1T1L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4313:A1T1H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4314:A1B1:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4315:DAS1L:DMA Size / HDMA Indirect Address (Low)
+REG:4316:DAS1H:DMA Size / HDMA Indirect Address (High)
+REG:4317:DAS1B:HDMA Indirect Address (Bank)
+REG:4318:A2A1L:HDMA Mid Frame Table Address (Low)
+REG:4319:A2A1H:HDMA Mid Frame Table Address (High)
+REG:431A:NTLR1:HDMA Line Counter
+REG:4320:DMAP2:(H)DMA Control
+REG:4321:BBAD2:(H)DMA B-Bus Address
+REG:4322:A1T2L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4323:A1T2H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4324:A1B2:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4325:DAS2L:DMA Size / HDMA Indirect Address (Low)
+REG:4326:DAS2H:DMA Size / HDMA Indirect Address (High)
+REG:4327:DAS2B:HDMA Indirect Address (Bank)
+REG:4328:A2A2L:HDMA Mid Frame Table Address (Low)
+REG:4329:A2A2H:HDMA Mid Frame Table Address (High)
+REG:432A:NTLR2:HDMA Line Counter
+REG:4330:DMAP3:(H)DMA Control
+REG:4331:BBAD3:(H)DMA B-Bus Address
+REG:4332:A1T3L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4333:A1T3H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4334:A1B3:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4335:DAS3L:DMA Size / HDMA Indirect Address (Low)
+REG:4336:DAS3H:DMA Size / HDMA Indirect Address (High)
+REG:4337:DAS3B:HDMA Indirect Address (Bank)
+REG:4338:A2A3L:HDMA Mid Frame Table Address (Low)
+REG:4339:A2A3H:HDMA Mid Frame Table Address (High)
+REG:433A:NTLR3:HDMA Line Counter
+REG:4340:DMAP4:(H)DMA Control
+REG:4341:BBAD4:(H)DMA B-Bus Address
+REG:4342:A1T4L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4343:A1T4H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4344:A1B4:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4345:DAS4L:DMA Size / HDMA Indirect Address (Low)
+REG:4346:DAS4H:DMA Size / HDMA Indirect Address (High)
+REG:4347:DAS4B:HDMA Indirect Address (Bank)
+REG:4348:A2A4L:HDMA Mid Frame Table Address (Low)
+REG:4349:A2A4H:HDMA Mid Frame Table Address (High)
+REG:434A:NTLR4:HDMA Line Counter
+REG:4350:DMAP5:(H)DMA Control
+REG:4351:BBAD5:(H)DMA B-Bus Address
+REG:4352:A1T5L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4353:A1T5H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4354:A1B5:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4355:DAS5L:DMA Size / HDMA Indirect Address (Low)
+REG:4356:DAS5H:DMA Size / HDMA Indirect Address (High)
+REG:4357:DAS5B:HDMA Indirect Address (Bank)
+REG:4358:A2A5L:HDMA Mid Frame Table Address (Low)
+REG:4359:A2A5H:HDMA Mid Frame Table Address (High)
+REG:435A:NTLR5:HDMA Line Counter
+REG:4360:DMAP6:(H)DMA Control
+REG:4361:BBAD6:(H)DMA B-Bus Address
+REG:4362:A1T6L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4363:A1T6H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4364:A1B6:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4365:DAS6L:DMA Size / HDMA Indirect Address (Low)
+REG:4366:DAS6H:DMA Size / HDMA Indirect Address (High)
+REG:4367:DAS6B:HDMA Indirect Address (Bank)
+REG:4368:A2A6L:HDMA Mid Frame Table Address (Low)
+REG:4369:A2A6H:HDMA Mid Frame Table Address (High)
+REG:436A:NTLR6:HDMA Line Counter
+REG:4370:DMAP7:(H)DMA Control
+REG:4371:BBAD7:(H)DMA B-Bus Address
+REG:4372:A1T7L:DMA A-Bus Address / HDMA Table Address (Low)
+REG:4373:A1T7H:DMA A-Bus Address / HDMA Table Address (High)
+REG:4374:A1B7:DMA A-Bus Address / HDMA Table Address (Bank)
+REG:4375:DAS7L:DMA Size / HDMA Indirect Address (Low)
+REG:4376:DAS7H:DMA Size / HDMA Indirect Address (High)
+REG:4377:DAS7B:HDMA Indirect Address (Bank)
+REG:4378:A2A7L:HDMA Mid Frame Table Address (Low)
+REG:4379:A2A7H:HDMA Mid Frame Table Address (High)
+REG:437A:NTLR7:HDMA Line Counter
