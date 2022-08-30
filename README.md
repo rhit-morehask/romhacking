@@ -27,3 +27,5 @@ Impact:
   -Helped discover and label several important addresses
   -Contributed to the current understanding on how data is stored and used within the game's ROM
   -Created first major ROMhack of Live A Live in the English-speaking fandom
+  
+  Please see commit descriptions for more information regarding the files uploaded.
